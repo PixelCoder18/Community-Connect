@@ -1,0 +1,105 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0a2d43;
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.action-buttons a {
+    margin-left: 15px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-login {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-signup {
+    background: #30a7ff;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #428CC2, #1D3F5E);
+    color: white;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* FORUMS */
+.forums-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.forum-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.forum-card h2 {
+    margin-bottom: 10px;
+    color: #1d3f5e;
+}
+
+.forum-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #428CC2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.forum-btn:hover {
+    background: #1D3F5E;
+}

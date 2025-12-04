@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f6f7;
+}
+
+
+
+//* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(180deg, #428CC2, #1D3F5E);
+    color: white;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ABOUT CONTENT */
+.about-section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #1D3F5E;
+    margin-top: 40px;
+}
+
+.about-section p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* Features List */
+.features {
+    margin-top: 1px;
+}
+
+.features li {
+    list-style: none;
+    padding: 12px ;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #1D3F5E;
+    /* to delete the space above the list items */
+
+}
+

@@ -1,0 +1,75 @@
+/* PAGE WRAPPER (prevents global body override) */
+.login-page {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(180deg, #428CC2, #1D3F5E);
+}
+
+/* Main Login Box */
+.login-container {
+    width: 900px;
+    height: 450px;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Left Panel */
+.login-left {
+    flex: 1.2;
+    padding: 50px;
+}
+
+.login-left h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.login-left p {
+    width: 80%;
+    line-height: 1.5;
+}
+
+/* Right Panel */
+.login-right {
+    flex: 1;
+    padding: 50px 40px;
+    background: linear-gradient(180deg, #428CC2, #1D3F5E);
+}
+
+.login-right h2 {
+    margin-bottom: 30px;
+    color: #000;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    background: #ececec;
+    outline: none;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+}

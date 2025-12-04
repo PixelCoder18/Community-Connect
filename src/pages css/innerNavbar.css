@@ -1,0 +1,50 @@
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 15px 20px;
+    background: #1D3F5E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    text-decoration: underline;
+}
+
+.nav-buttons a {
+    margin-left: 20px;
+    padding: 8px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-btn {
+    border: 2px solid white;
+    color: white;
+}
+
+.signup-btn {
+    background: #34A3FF;
+    color: white;
+}
