@@ -1,16 +1,89 @@
-# React + Vite
+🌐 Community Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight community interaction platform where users can connect, share updates, and engage through posts.
 
-Currently, two official plugins are available:
+📖 Overview
+Community Connect is a mini social platform built to allow users to create an account, log in, and share posts with the community.
+The project demonstrates full-stack development using:
+React (Frontend UI)
+PHP (Backend API)
+MySQL/MariaDB (Database)
+The goal of the project is to create a simple, functional, and scalable community system suitable for college or local groups.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Core Objectives
+Provide a space where users can share posts within a closed community
+Enable secure login/signup functionality
+Maintain lightweight and fast UI
+Build a scalable backend structure for future features
 
-## React Compiler
+🚀 Features
+👤 User System
+Account registration
+Login authentication
+Password hashing
+Basic session/token-based flow
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📝 Community Feed
+Create new posts
+Display posts from all users
+Clean and simple UI
 
-## Expanding the ESLint configuration
+🗄️ Backend API
+REST-style PHP endpoints
+Easy to expand for comments, likes, profiles, etc.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💾 Database
+MySQL/MariaDB-based post and user storage
+Designed for simplicity and reliability
+
+🛠️ Technology Stack
+Layer	Tech Used
+Frontend	React, CSS
+Backend	PHP
+Database	MySQL / MariaDB
+Tools	XAMPP, phpMyAdmin
+
+📌 How It Works
+1️⃣ User signs up ↠
+Data stored in the database via PHP API.
+
+2️⃣ User logs in ↠
+Backend validates credentials and responds with success.
+
+3️⃣ User creates a post ↠
+React sends POST request → PHP saves it → feed updates.
+
+4️⃣ Everyone sees the latest community activity.
+
+📂 Project Modules
+
+1. Authentication Module
+Handles:
+Signup
+Login
+Error responses
+Validations
+
+2. Post Module
+Handles:
+Creating posts
+Fetching all posts
+Formatting feed data
+
+3. Database Module
+Contains:
+DB connection
+SQL schema for users & posts
+
+🎓 Ideal For
+
+College community groups
+Small local groups
+Class projects / lab submissions
+Beginners learning full-stack development
+
+📜 License
+Open-source under MIT License.
+
+🙋‍♀️ Author
+Ayushi Saxena
